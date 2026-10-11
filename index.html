@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formula 1</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="shortcut icon"
+      href="https://logos-world.net/wp-content/uploads/2023/12/F1-Logo.png"
+      type="image/x-icon"
+    />
+  </head>
+  <body>
+    <div class="hero-section">
+      <video autoplay muted loop class="bg-video">
+        <source src="./car-f1.mp4" type="video/mp4" />
+      </video>
+
+      <div class="overlay"></div>
+      <header class="header">
+        <div class="logo">
+          <a href="./index.html">
+            <img width="100px" src="./F1.svg.webp" alt=""
+          /></a>
+        </div>
+
+        <nav class="main-nav">
+          <div class="nav-indicator"></div>
+          <a href="./index.html" data-index="0" class="nav-item active"
+            >SCHEDULE</a
+          >
+          <a href="./result.html" data-index="1" class="nav-item">RESULT</a>
+          <a href="./news.html" data-index="2" class="nav-item">NEWS</a>
+          <a href="./drivers.html" data-index="3" class="nav-item">DRIVERS</a>
+          <a href="./teams.html" data-index="4" class="nav-item">TEAMS</a>
+          <a href="./gaming.html" data-index="5" class="nav-item">GAMING</a>
+        </nav>
+        <div class="header-actions">
+          <button class="search-btn">
+            <svg
+              viewBox="0 0 24 24"
+              width="16"
+              height="16"
+              stroke="currentColor"
+              stroke-width="2"
+              fill="none"
+            >
+              <circle cx="11" cy="11" r="8"></circle>
+              <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+            </svg></button
+          ><a
+            style="text-decoration: none"
+            href="https://www.formula1.com/en/page/what-is-f1-tv-pro"
+            target="_blank"
+          >
+            <button class="f1tv-btn">
+              F1 TV <span class="plus-icon">+</span>
+            </button></a
+          >
+        </div>
+      </header>
+
+      <div class="bottom-ui">
+        <div class="card next-race">
+          <div class="card-header">
+            <span class="subtitle">NEXT RACE</span>
+            <span class="red-dot"></span>
+          </div>
+          <h2>Las Vegas GP</h2>
+          <p class="session">Free Practice 1</p>
+
+          <div class="countdown">
+            <div class="time-block">
+              <span class="number">01</span>
+              <span class="unit">DAYS</span>
+            </div>
+            <div class="time-block">
+              <span class="number">18</span>
+              <span class="unit">HOURS</span>
+            </div>
+            <div class="time-block">
+              <span class="number">43</span>
+              <span class="unit">MINS</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="card latest-news">
+          <div class="news-content">
+            <div class="news-image-placeholder">
+              <img
+                width="70px"
+                height="90px"
+                style="border-radius: 5px"
+                src="https://imgs.search.brave.com/Wd3iCsWIsR3-Y17slH7WZyf56ffFFqZING7z5scht_4/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pLmd1/aW0uY28udWsvaW1n/L21lZGlhLzY0YTY3/ZDViMzljNWVkZTY3/M2NmYTRhNjgyMzc2/MWQ5NWFjNWE5OTQv/MF8wXzI0MjNfMzcx/Ni9tYXN0ZXIvMjQy/My5qcGc_d2lkdGg9/NDQ1JmRwcj0xJnM9/bm9uZSZjcm9wPW5v/bmU"
+                alt=""
+              />
+              <a href="./news.html"><div class="news-arrow">→</div></a>
+            </div>
+            <div class="news-text">
+              <span class="subtitle red-text">LATEST NEWS</span>
+              <p>How keeping his head down is aiding Norris' title push</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <section class="intro">
+      <p class="small-title reveal">The Pinnacle of Motorsport</p>
+      <h2 class="big-title reveal">
+        Where speed <span class="red">becomes legend.</span>
+      </h2>
+      <p class="intro-text reveal">
+        Twenty drivers. Ten teams. Every lap is decided by hundredths of a
+        second.
+      </p>
+    </section>
+
+    <section class="story">
+      <div class="story-text reveal">
+        <p class="small-title">Heritage</p>
+        <h2 class="big-title">
+          75 years of <span class="red">pure drama.</span>
+        </h2>
+        <p>
+          From the first world championship in 1950 to today's hybrid cars, the
+          goal never changed: be faster than everyone else.
+        </p>
+        <a
+          href="https://en.wikipedia.org/wiki/Formula_One"
+          target="_blank"
+          class="button"
+          >Explore history →</a
+        >
+      </div>
+
+      <div class="story-images reveal">
+        <div class="image-box">
+          <img src="./emanuel-ekstrom-6ZX9i-Q-mpw-unsplash.jpg" alt="" />
+        </div>
+        <div class="image-box">
+          <img src="./taeyoon-moon-GwX5Nv305IY-unsplash.jpg" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <section class="stats">
+      <div class="stat"><strong>24</strong><span>Races per season</span></div>
+      <div class="stat"><strong>20</strong><span>Drivers</span></div>
+      <div class="stat"><strong>350+</strong><span>Top speed km/h</span></div>
+      <div class="stat"><strong>75</strong><span>Years of racing</span></div>
+    </section>
+
+    <section class="finale">
+      <div class="finale-content reveal">
+        <h2 class="finale-title">Feel every <span class="red">lap.</span></h2>
+        <a
+          href="https://www.formula1.com/en/page/what-is-f1-tv-pro"
+          target="_blank"
+          class="button red-button"
+          >Watch on F1 TV →</a
+        >
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="footer-links">
+        <div>
+          <h4>Racing</h4>
+          <a href="./index.html">Schedule</a>
+          <a href="./result.html">Results</a>
+        </div>
+        <div>
+          <h4>Explore</h4>
+          <a href="./drivers.html">Drivers</a>
+          <a href="./teams.html">Teams</a>
+          <a href="./news.html">News</a>
+        </div>
+      </div>
+      <p class="copyright">© 2026 Formula 1. All rights reserved.</p>
+    </footer>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
